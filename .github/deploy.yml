@@ -2,30 +2,24 @@
 production1:
   environment: production1
   production_environment: true
-  payload:
-    env: prod1
+  payload: {"env": "prod1"}
 production2:
   environment: production2
   production_environment: true
-  payload:
-    env: prod2
+  payload: {"env": "prod2"}
 staging1:
   environment: staging1
   production_environment: false
-  payload:
-    env: staging1
+  payload: {"env": "staging1"}
 staging2:
   environment: staging2
   production_environment: false
-    payload:
-    env: staging2
+  payload: {"env": "staging2"}
 integration1:
   environment: integration1
   production_environment: false
-  payload:
-    env: integration1
+  payload: {"env": "integration1"}
 integration2:
   environment: integration2
   production_environment: false
-  payload:
-    env: integration2
+  payload: {"env": "integration2"}
